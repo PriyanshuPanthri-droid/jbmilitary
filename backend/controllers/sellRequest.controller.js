@@ -4,6 +4,9 @@ import { validateSellRequest } from '../utils/validations/sellRequestValidations
 import path from 'path';
 import fs from 'fs';
 
+
+
+console.log("hello")
 export const submitSellRequest = async (req, res) => {
   try {
     const { name, email, phone, productName, price, description } = req.body;
